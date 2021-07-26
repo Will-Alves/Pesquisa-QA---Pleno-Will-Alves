@@ -16,6 +16,7 @@ Quando("eu preencher todos os campos obrigatórios") do
   select "Desafio", from: "nf-field-12"
   find("#nf-label-class-field-13-0").click
   find("#nf-field-14").set "Ruby"
+  find("#nf-field-15").set "Eu quero me tornar um profissional cada vez melhor, dentro daquilo que seja colocado como desafios na minha carreira, será uma grande oportunidade entrar na Via Varejo, e irei agarrar esse desafio que tanto busco como objetivo na área de QA."
   click_on "Enviar"
   sleep 5
 end
